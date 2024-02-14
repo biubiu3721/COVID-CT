@@ -33,7 +33,7 @@ from torch.utils.data import Dataset
 import re
 import albumentations as albu
 from albumentations.pytorch import ToTensor
-from catalyst.data import Augmentor
+from catalyst.contrib.data.augmentor import Augmentor  
 import torchxrayvision as xrv
 
 
