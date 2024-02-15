@@ -40,17 +40,7 @@ from albumentations.pytorch import ToTensor
 from catalyst.contrib.data.augmentor import Augmentor  
 
 # In[2]
-
 torch.cuda.empty_cache()
-
-
-
-# In[2]:
-
-
-get_ipython().system('pip install --upgrade efficientnet-pytorch')
-
-
 # In[3]:
 
 
